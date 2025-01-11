@@ -8,6 +8,7 @@
 
 body{
     padding: 24px 160px;
+    background-color: #F5F5F5;
 }
 
 nav{
@@ -104,6 +105,17 @@ nav{
     height: 244px;
     border-radius: 16px;
 }
+
+/* For card-4 */
+.card-4{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    background-color: white;
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+}
+
 .card-image{
     background-color: white;
 }
@@ -120,6 +132,7 @@ nav{
     font-weight: 400;
     line-height: 24px;
 }
+
 
 /* Vision styles */
 .vision-title{
@@ -234,7 +247,6 @@ nav{
 .vision-card-3{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border: none;
-    margin-right: 24px;
     margin-top: 16px;
     padding: 32px;
     background-color: rgba(247, 235, 207, 1);
@@ -276,4 +288,41 @@ nav{
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+
+/* Quote Section Styles */
+.quote-div{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px ;
+    padding: 48px 24px 48px 24px;
+    margin-top: 24px;
+    background-color: white;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 40px;
+
+
+}
+.quote-div p{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    padding-top: 1px;
+    
+    
+}
+.quote-div h3{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight:600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 1px;
+}
+.quote-sub-description{
+    margin-top: 0px;
 }
