@@ -682,14 +682,14 @@ select {
 .newsletter-mail input{
     border: none;
     padding: 20px 40px 20px 40px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 10px 0px 0px 10px;
     background-color: white;
     color: rgba(14, 14, 14, 0.3);
 }
 .newsletter-mail button{
     border: none;
     padding: 17px 34px 17px 34px;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
     background-color: rgba(0, 106, 80, 1);
     font-family: Fira Sans;
     font-size: 18px;
