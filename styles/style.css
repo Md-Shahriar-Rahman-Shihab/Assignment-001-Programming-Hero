@@ -28,7 +28,7 @@ nav{
     padding: 30px;
     padding: 15px 30px 15px 30px;
     color: #006A50;
-    border-color: #006A50;
+    border:2px solid #006A50;
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
@@ -325,4 +325,151 @@ nav{
 }
 .quote-sub-description{
     margin-top: 0px;
+}
+
+/* Recent News Section */
+.recent-news-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 1px;
+}
+.recent-news-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.recent-news-div-1{
+    border: 1px solid black;
+    border: none;
+    border-radius: 24px;
+    background-color: white;
+    padding: 48px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.recent-news-div-1 img{
+    border-radius: 24px;
+    background-color: white;
+    margin-right: 32px;
+    margin-bottom: 24px;
+}
+.recent-news-div-desc{
+    background-color: white;
+    margin-bottom: 100px;
+}
+.recent-news-div-desc h3{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0px;
+}
+.recent-news-div-desc img{
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 0px;
+}
+.recent-news-div-desc p{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.recent-news-div-desc p>span{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-right:12px ;
+}
+
+.recent-news-div-btn{
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight:600;
+    padding: 30px;
+    padding: 13px 26px 13px 26px;
+    background-color: #006A50;
+    color: white;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+/* recent-news-div-2 */
+.recent-news-div-2{
+    border: 1px solid black;
+    border: none;
+    border-radius: 24px;
+    background-color: white;
+    padding: 48px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.recent-news-div-2 img{
+    border-radius: 24px;
+    background-color: white;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+.recent-news-div-2-desc{
+    background-color: white;
+    margin-bottom: 100px;
+}
+.recent-news-div-2-desc h3{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0px 0px 12px 0px;
+}
+.recent-news-div-2-desc img{
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 0px;
+    margin-left: 0;
+}
+.recent-news-div-2-desc p{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.recent-news-div-2-desc p>span{
+    background-color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-right:12px ;
+}
+
+.recent-news-div-2-btn{
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight:600;
+    padding: 30px;
+    padding: 13px 26px 13px 26px;
+    background-color: #006A50;
+    color: white;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
