@@ -82,3 +82,198 @@ nav{
 .banner-image{
     background-color: #C6E4D6;
 }
+
+/* Cards Style */
+
+.cards-div{
+    display: flex;
+}
+.card-main-title{
+    font-size: 40px;
+    margin:80px 0px 0px;
+    font-weight: bold;
+    padding: 0px 0px 32px 0px;
+}
+
+.card{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-right: 24px;
+    padding: 24px;
+    background-color: white;
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+}
+.card-image{
+    background-color: white;
+}
+.card-title{
+    background-color: white;
+    color:rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-description{
+    background-color: white;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Vision styles */
+.vision-title{
+    font-size: 40px;
+    margin:80px 0px 0px;
+    font-weight: bold;
+    padding: 0px 0px 32px 0px;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.vision-card-1{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    margin-right: 24px;
+    margin-top: 16px;
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+    
+}
+.vision-card-1 img{
+    background-color: rgba(199, 218, 250, 0.2);
+}
+.vision-card-1 h1{
+    background-color: rgba(199, 218, 250, 0.2);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.vision-card-1 p{
+    background-color: rgba(199, 218, 250, 0.2);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-card-1 button{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:600;
+    padding: 30px;
+    padding: 11px 20px 11px 20px;
+    background-color: rgba(84, 144, 245, 1);
+    color: white;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.vision-card-2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    margin-right: 24px;
+    margin-top: 16px;
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+}
+.vision-card-2 img{
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision-card-2 h1{
+    background-color: rgba(198, 228, 214, 1);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-card-2 p{
+    background-color: rgba(198, 228, 214, 1);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-card-2 button{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:600;
+    padding: 30px;
+    padding: 11px 20px 11px 20px;
+    background-color: rgba(9, 161, 92, 1);
+    color: white;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+ 
+.vision-card-3{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    margin-right: 24px;
+    margin-top: 16px;
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+    
+}
+.vision-card-3 img{
+    background-color: rgba(247, 235, 207, 1);
+}
+.vision-card-3 h1{
+    background-color: rgba(247, 235, 207, 1);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.vision-card-3 p{
+    background-color: rgba(247, 235, 207, 1);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-card-3 button{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:600;
+    padding: 30px;
+    padding: 11px 20px 11px 20px;
+    background-color: rgba(255, 194, 57, 1);
+    color: white;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
